@@ -1,6 +1,3 @@
-const myfun = () => {
-    let name = 'song';
-    console.log(`My name is ${name}`);
-}
+import Blog from './main.js'
 
-myfun();
+const myblog = new Blog();

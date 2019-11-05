@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "build": "webpack",
+    "devserver": "webpack-dev-server --inline"
   },
   "author": "madSong",
   "license": "MIT",
@@ -15,7 +16,8 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
     "@babel/node": "^7.7.0",
